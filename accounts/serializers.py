@@ -65,7 +65,7 @@ def send_verification_email(user):
     user.save()
     
     # Construir enlace de verificación
-    verification_link = f"{settings.FRONTEND_URL}/verify-email?token={verification_token}"
+    verification_link = f"{settings.FRONTEND_URL}/verify-email/?token={verification_token}"
     
     # Enviar email
     send_mail(
