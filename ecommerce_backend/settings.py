@@ -176,5 +176,5 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # Dirección de correo predeterminada (opc
 
 PASSWORD_RESET_TIMEOUT = 14400
 
-FRONTEND_URL = 'http://localhost:5173'
+FRONTEND_URL = 'https://frontend-stride.vercel.app/home'
 
