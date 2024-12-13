@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-k6r)+s4i&%=#j9zkkj^)ox6q5v6ov5q_2j1&so6jdgc_czfcoz
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['backend-stride.onrender.com']
 
 DEBUG = env('DEBUG')
 
