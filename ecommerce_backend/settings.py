@@ -30,6 +30,7 @@ SECRET_KEY = 'django-insecure-k6r)+s4i&%=#j9zkkj^)ox6q5v6ov5q_2j1&so6jdgc_czfcoz
 
 ALLOWED_HOSTS = []
 
+DEBUG = env('DEBUG')
 
 # Application definition
 
